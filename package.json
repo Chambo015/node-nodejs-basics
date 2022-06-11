@@ -10,7 +10,9 @@
     "args" : "node src/cli/args.js --propName Era --prop2Name Chambo",
     "rs" : "node src/streams/read.js",
     "ws": "node src/streams/write.js",
-    "transform": "node src/streams/transform.js"
+    "transform": "node src/streams/transform.js",
+    "compress": "node src/zip/compress.js",
+    "decompress": "node src/zip/decompress.js"
   },
   "repository": {
     "type": "git",
