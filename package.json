@@ -5,7 +5,12 @@
   "description": "This repository is the part of nodejs-assignments https://github.com/AlreadyBored/nodejs-assignments",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "env" : "npx cross-env RSS_name=Era RSS_nick=Chambo node src/cli/env.js",
+    "args" : "node src/cli/args.js --propName Era --prop2Name Chambo",
+    "rs" : "node src/streams/read.js",
+    "ws": "node src/streams/write.js",
+    "transform": "node src/streams/transform.js"
   },
   "repository": {
     "type": "git",
